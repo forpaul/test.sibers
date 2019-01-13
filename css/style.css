@@ -1,0 +1,27 @@
+body{
+    margin-top: 30px;
+    background: url(fond.png);
+}
+.wrapper{
+    margin-top: 20px;
+}
+#names{
+    width: 250px;
+    border:none;
+    text-decoration: none;
+    box-shadow: 0 0 10px grey;
+    border-radius: 10px;
+    overflow-y: auto;
+}
+
+#info{
+    border: none;
+    height: 25px;
+    font-size: 13pt;
+    margin: 5px;
+}
+#avatar{
+    border-radius: 50%;
+    width: 200px;
+}
+

@@ -1,0 +1,33 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Contacts</title>
+    <script src="js/jquery-3.3.1.min.js"></script>
+    
+</head>
+
+<body>
+    <div class="container-fluid">
+            <button id="taking_data" class="btn btn-danger" onclick="take_data()">Take original data</button>
+            <button id="rendering_data" class="btn btn-primary" onclick="rendering_data()">Show contacts</button>
+            <button id="sort"  class="btn btn-secondary" onclick="sort()">Sort by alphabit</button>
+            <button id="saveinfo" class="btn btn-success" onclick="save(this)">Save</button><br>
+    <div class="wrapper row ml-auto">
+    <div id="fullinfo col-md-4">
+        <select id="names" size="80" onchange="slctt(this)"></select>
+    </div>
+
+    <div id="inputs" class="col-md-7"></div> 
+    </div>
+    <script src="js/script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+    </div>
+</body>
+
+</html>

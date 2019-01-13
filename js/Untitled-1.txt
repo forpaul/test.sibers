@@ -1,0 +1,404 @@
+                    $('#wrapper').append($('<input>',
+                    {   
+                    id: 'username',
+                    value : JSON.stringify(database[key.selectedIndex].username),
+                    size: '70',
+                    }));
+
+                $('#wrapper').append($('<h3>',
+                {   
+                id: 'h',
+                text : 'Email:',
+            
+                }));
+
+            $('#wrapper').append($('<input>',
+            {   
+            id: 'email',
+            value : JSON.stringify(database[key.selectedIndex].email),
+            size: '70',
+            }));
+
+            /*Address*/
+
+                $('#wrapper').append($('<h3>',
+                {   
+                id: 'h',
+                text : 'Address:',
+            
+                }));
+
+                    $('#wrapper').append($('<input>',
+                    {   
+                    id: 'streeta',
+                    value : JSON.stringify(database[key.selectedIndex].address.streetA),
+                    size: '70',
+                    }));
+
+            $('#wrapper').append($('<input>',
+            {   
+            id: 'streetb',
+            value : JSON.stringify(database[key.selectedIndex].address.streetB),
+            size: '70',
+            }));  
+                             
+            
+                    $('#wrapper').append($('<input>',
+                    {   
+                    id: 'streetc',
+                    value : JSON.stringify(database[key.selectedIndex].address.streetC),
+                    size: '70',
+                    }));
+            
+            $('#wrapper').append($('<input>',
+            {   
+            id: 'streetd',
+            value : JSON.stringify(database[key.selectedIndex].address.streetD),
+            size: '70',
+            }));
+            
+                    $('#wrapper').append($('<input>',
+                    {   
+                    id: 'city',
+                    value : JSON.stringify(database[key.selectedIndex].address.city),
+                    size: '70',
+                    }));
+            
+            $('#wrapper').append($('<input>',
+            {   
+            id: 'state',
+            value : JSON.stringify(database[key.selectedIndex].address.state),
+            size: '70',
+            }));
+            
+                    $('#wrapper').append($('<input>',
+                    {   
+                    id: 'country',
+                    value : JSON.stringify(database[key.selectedIndex].address.country),
+                    size: '70',
+                    }));
+            
+            $('#wrapper').append($('<input>',
+            {   
+            id: 'zipcode',
+            value : JSON.stringify(database[key.selectedIndex].address.zipcode),
+            size: '70',
+            }));
+            
+                    $('#wrapper').append($('<input>',
+                    {   
+                    id: 'lat',
+                    value : JSON.stringify(database[key.selectedIndex].address.geo.lat),
+                    size: '70',
+                    }));
+            
+            $('#wrapper').append($('<input>',
+            {   
+            id: 'lng',
+            value : JSON.stringify(database[key.selectedIndex].address.geo.lng),
+            size: '70',
+            }));
+
+                        /*Personal info*/
+
+                $('#wrapper').append($('<h3>',
+                {   
+                id: 'h',
+                text : 'Personal informaiton:',
+            
+                }));
+
+                    $('#wrapper').append($('<input>',
+                    {   
+                    id: 'phone',
+                    value : JSON.stringify(database[key.selectedIndex].phone),
+                    size: '70',
+                    }));
+
+            $('#wrapper').append($('<input>',
+            {   
+            id: 'website',
+            value : JSON.stringify(database[key.selectedIndex].website),
+            size: '70',
+            }));  
+
+                    $('#wrapper').append($('<input>',
+                    {   
+                    id: 'cname',
+                    value : JSON.stringify(database[key.selectedIndex].company.name),
+                    size: '70',
+                    }));     
+      
+            $('#wrapper').append($('<input>',
+            {   
+            id: 'catchPhrase',
+            value : JSON.stringify(database[key.selectedIndex].company.catchPhrase),
+            size: '70',
+            }));   
+            
+                    $('#wrapper').append($('<input>',
+                    {   
+                    id: 'bs',
+                    value : JSON.stringify(database[key.selectedIndex].company.bs),
+                    size: '70',
+                    }));  
+
+
+                        /*Posts*/
+                            
+        
+                $('#wrapper').append($('<h3>',
+                {   
+                id: 'h',
+                text : 'Posts:',
+                }));
+                $('#wrapper').append($('<h4>',
+                {   
+                id: 'h',
+                text : 'Words:',
+                }));
+
+                    $('#wrapper').append($('<input>',
+                    {   
+                    id: 'words',
+                    value : JSON.stringify(database[key.selectedIndex].posts[0].words),
+                    size: '70',
+                    })); 
+            $('#wrapper').append($('<input>',
+            {   
+            id: 'sentence',
+            value : JSON.stringify(database[key.selectedIndex].posts[0].sentence),
+            size: '150',
+            })); 
+            $('#wrapper').append($('<input>',
+            {   
+            id: 'sentences',
+            value : JSON.stringify(database[key.selectedIndex].posts[0].sentences),
+            size: '150',
+            }));
+            $('#wrapper').append($('<input>',
+            {   
+            id: 'paragraph',
+            value : JSON.stringify(database[key.selectedIndex].posts[0].paragraph),
+            size: '150',
+            }));
+            
+                $('#wrapper').append($('<h4>',
+                {   
+                id: 'h',
+                text : 'Words:',
+                }));
+
+                    $('#wrapper').append($('<input>',
+                    {   
+                    id: 'words',
+                    value : JSON.stringify(database[key.selectedIndex].posts[1].words),
+                    size: '70',
+                    })); 
+            $('#wrapper').append($('<input>',
+            {   
+            id: 'sentence',
+            value : JSON.stringify(database[key.selectedIndex].posts[1].sentence),
+            size: '150',
+            })); 
+            $('#wrapper').append($('<input>',
+            {   
+            id: 'sentences',
+            value : JSON.stringify(database[key.selectedIndex].posts[1].sentences),
+            size: '150',
+            }));
+            $('#wrapper').append($('<input>',
+            {   
+            id: 'paragraph',
+            value : JSON.stringify(database[key.selectedIndex].posts[1].paragraph),
+            size: '150',
+            }));
+
+                $('#wrapper').append($('<h4>',
+                {   
+                id: 'h',
+                text : 'Words:',
+                }));
+
+                    $('#wrapper').append($('<input>',
+                    {   
+                    id: 'words',
+                    value : JSON.stringify(database[key.selectedIndex].posts[2].words),
+                    size: '70',
+                    })); 
+            $('#wrapper').append($('<input>',
+            {   
+            id: 'sentence',
+            value : JSON.stringify(database[key.selectedIndex].posts[2].sentence),
+            size: '150',
+            })); 
+            $('#wrapper').append($('<input>',
+            {   
+            id: 'sentences',
+            value : JSON.stringify(database[key.selectedIndex].posts[2].sentences),
+            size: '150',
+            }));
+            $('#wrapper').append($('<input>',
+            {   
+            id: 'paragraph',
+            value : JSON.stringify(database[key.selectedIndex].posts[2].paragraph),
+            size: '150',
+            }));
+
+                /*Account history. First list*/
+
+                $('#wrapper').append($('<h4>',
+                {   
+                id: 'h',
+                text : 'Account history. First list:',
+                }));
+            $('#wrapper').append($('<input>',
+            {   
+            id: 'amount',
+            value : JSON.stringify(database[key.selectedIndex].accountHistory[0].amount),
+            size: '150',
+            })); 
+            $('#wrapper').append($('<input>',
+            {   
+            id: 'date',
+            value : JSON.stringify(database[key.selectedIndex].accountHistory[0].date),
+            size: '150',
+            })); 
+            $('#wrapper').append($('<input>',
+            {   
+            id: 'business',
+            value : JSON.stringify(database[key.selectedIndex].accountHistory[0].business),
+            size: '150',
+            })); 
+            $('#wrapper').append($('<input>',
+            {   
+            id: 'name',
+            value : JSON.stringify(database[key.selectedIndex].accountHistory[0].name),
+            size: '150',
+            })); 
+            $('#wrapper').append($('<input>',
+            {   
+            id: 'type',
+            value : JSON.stringify(database[key.selectedIndex].accountHistory[0].type),
+            size: '150',
+            })); 
+            $('#wrapper').append($('<input>',
+            {   
+            id: 'account',
+            value : JSON.stringify(database[key.selectedIndex].accountHistory[0].account),
+            size: '150',
+            })); 
+
+                /*Account history. Second list*/
+
+                $('#wrapper').append($('<h4>',
+                {   
+                id: 'h',
+                text : 'Account history. Second list:',
+                }));
+            $('#wrapper').append($('<input>',
+            {   
+            id: 'amount',
+            value : JSON.stringify(database[key.selectedIndex].accountHistory[1].amount),
+            size: '150',
+            })); 
+            $('#wrapper').append($('<input>',
+            {   
+            id: 'date',
+            value : JSON.stringify(database[key.selectedIndex].accountHistory[1].date),
+            size: '150',
+            })); 
+            $('#wrapper').append($('<input>',
+            {   
+            id: 'business',
+            value : JSON.stringify(database[key.selectedIndex].accountHistory[1].business),
+            size: '150',
+            })); 
+            $('#wrapper').append($('<input>',
+            {   
+            id: 'name',
+            value : JSON.stringify(database[key.selectedIndex].accountHistory[1].name),
+            size: '150',
+            })); 
+            $('#wrapper').append($('<input>',
+            {   
+            id: 'type',
+            value : JSON.stringify(database[key.selectedIndex].accountHistory[1].type),
+            size: '150',
+            })); 
+            $('#wrapper').append($('<input>',
+            {   
+            id: 'account',
+            value : JSON.stringify(database[key.selectedIndex].accountHistory[1].account),
+            size: '150',
+            })); 
+
+                /*Account history .Third list*/
+
+                $('#wrapper').append($('<h4>',
+                {   
+                id: 'h',
+                text : 'Account history. Third list:',
+                }));
+
+            $('#wrapper').append($('<input>',
+            {   
+            id: 'amount',
+            value : JSON.stringify(database[key.selectedIndex].accountHistory[2].amount),
+            size: '150',
+            })); 
+            $('#wrapper').append($('<input>',
+            {   
+            id: 'date',
+            value : JSON.stringify(database[key.selectedIndex].accountHistory[2].date),
+            size: '150',
+            })); 
+            $('#wrapper').append($('<input>',
+            {   
+            id: 'business',
+            value : JSON.stringify(database[key.selectedIndex].accountHistory[2].business),
+            size: '150',
+            })); 
+            $('#wrapper').append($('<input>',
+            {   
+            id: 'name',
+            value : JSON.stringify(database[key.selectedIndex].accountHistory[2].name),
+            size: '150',
+            })); 
+            $('#wrapper').append($('<input>',
+            {   
+            id: 'type',
+            value : JSON.stringify(database[key.selectedIndex].accountHistory[2].type),
+            size: '150',
+            })); 
+            $('#wrapper').append($('<input>',
+            {   
+            id: 'account',
+            value : JSON.stringify(database[key.selectedIndex].accountHistory[2].account),
+            size: '150',
+            })); 
+
+            /*favorite,img,id*/
+                $('#wrapper').append($('<h4>',
+                {   
+                id: 'h',
+                text : 'Favorite: ',
+                }));
+
+            $('#wrapper').append($('<input>',
+            {   
+            id: 'account',
+            value : JSON.stringify(database[key.selectedIndex].favorite),
+            size: '150',
+            })); 
+                $('#wrapper').append($('<h4>',
+                {   
+                id: 'h',
+                text : 'Avatar: ',
+                }));
+
+                    $('#wrapper').append($('<img>',
+                    {   
+                    id: 'avatar',
+                    src: database[key.selectedIndex].avatar,             
+                    })); 

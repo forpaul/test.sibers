@@ -186,7 +186,7 @@ function sort(){                                //sort names list by alphabit. B
                                                 //replace VALUE of inputs, buy dont replace index, and so cant show correct data
     jQuery('#names').each( function(){
         jQuery(this).html(jQuery(this).find('option').sort(function(a, b) {
-        return a.value < b.value ? 0 : a.value < b.value ? -1 : 1
+        return a.value > b.value ? 0 : a.value < b.value ? -1 : 1
         }) );
    
     });
